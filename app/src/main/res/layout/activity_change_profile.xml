@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_drawable"
-    tools:context=".ProfilePicActivity">
+    tools:context=".ChangeProfileActivity">
 
     <ImageView
-        android:id="@+id/profilePic"
+        android:id="@+id/profilePic2"
         android:layout_width="500px"
         android:layout_height="500px"
         android:src="@drawable/profile_placeholder"
@@ -18,7 +18,7 @@
         android:layout_marginTop="48dp"/>
 
     <ImageView
-        android:id="@+id/pinkCircle"
+        android:id="@+id/pinkCircle2"
         android:layout_width="120px"
         android:layout_height="120px"
         android:src="@drawable/circle"
@@ -26,6 +26,7 @@
         app:layout_constraintBottom_toBottomOf="@id/profilePic"/>
 
     <ImageView
+        android:id="@+id/ubahPP"
         android:layout_width="100px"
         android:layout_height="100px"
         android:src="@drawable/ic_baseline_edit_24"
@@ -50,7 +51,7 @@
         android:layout_marginStart="64dp"
         android:layout_marginEnd="64dp"
         android:fontFamily="@font/redhatdisplay_regular"
-        android:text="Lengkapi profil Anda dengan foto profil yang cantik."
+        android:text="Ubah Profile"
         android:textColor="@color/white"
         android:gravity="center_horizontal"
         android:textSize="14pt"
@@ -75,7 +76,6 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.cardview.widget.CardView
-        android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="32dp"
@@ -85,10 +85,10 @@
         android:layout_margin="36dp">
 
         <TextView
-            android:id="@+id/lewat"
+            android:id="@+id/lanjut2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lewati"
+            android:text="Lanjut"
             android:fontFamily="@font/redhatdisplay_regular"
             android:textStyle="bold"
             android:textSize="12pt"
@@ -99,5 +99,4 @@
             android:layout_marginBottom="8dp"/>
 
     </androidx.cardview.widget.CardView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

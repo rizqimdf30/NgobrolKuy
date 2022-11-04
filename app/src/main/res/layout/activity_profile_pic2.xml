@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_drawable"
-    tools:context=".ProfilePicActivity">
+    tools:context=".ProfilePicActivity2">
 
     <ImageView
         android:id="@+id/profilePic"
@@ -26,6 +26,7 @@
         app:layout_constraintBottom_toBottomOf="@id/profilePic"/>
 
     <ImageView
+        android:id="@+id/editPP"
         android:layout_width="100px"
         android:layout_height="100px"
         android:src="@drawable/ic_baseline_edit_24"
@@ -75,7 +76,6 @@
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <androidx.cardview.widget.CardView
-        android:visibility="invisible"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:cardCornerRadius="32dp"
@@ -85,10 +85,10 @@
         android:layout_margin="36dp">
 
         <TextView
-            android:id="@+id/lewat"
+            android:id="@+id/lanjut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Lewati"
+            android:text="Lanjut"
             android:fontFamily="@font/redhatdisplay_regular"
             android:textStyle="bold"
             android:textSize="12pt"
